@@ -149,6 +149,13 @@ td{
 }
 @media only screen and (max-width: 1112px) {
 
+    html, body{
+        padding: 0px;
+    }
+
+    header, main{
+        border-radius: 0%;
+    }
 
     .sectionInfo{
         display: flex;

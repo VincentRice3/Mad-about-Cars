@@ -30,13 +30,17 @@
     text-align: center;
 }
 
+
 .imgWrapper{
-    width: auto;
+    width: 80%;
     border: gray dotted 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hatchWrap{
-    width: 100%;
+    width:100%;
     height: auto;
 }
 

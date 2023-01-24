@@ -69,6 +69,7 @@ footer{
 .sectionInfo{
     display: flex;
     justify-content: space-evenly;    
+    padding: 10px;
 }
 
 .section{
@@ -94,7 +95,7 @@ footer{
 .author{
     display: flex;
     flex-direction: row;
-
+    padding: 0px 10px;
 }
 
 .author p{
@@ -112,6 +113,40 @@ footer{
     padding: 5px;
 }
 
+table{
+    padding: 0;
+    border: gray solid 2px;
+    width: 80%;
+
+}
+
+.tableWrapper{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    align-items:center;
+    display: flex;   
+    justify-content: center; 
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+th{
+    padding: 10px 0px;    
+    border-bottom: gray solid 2px;
+    border-right:gray solid 2px; ;
+    padding: 15px;
+    background-color: lightgray;
+
+}
+
+td{
+    border-bottom: gray solid 2px;
+    border-right:gray solid 2px; ;
+    padding: 15px;
+    background-color: ghostwhite;
+}
 @media only screen and (max-width: 1112px) {
 
 
